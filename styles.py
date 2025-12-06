@@ -313,7 +313,7 @@ def get_verdict_download_html(content):
             </div>
 
             <div class="footer">
-                <div style="font-size: 24px;">Judge DeepSeek-V3</div>
+                <div style="font-size: 24px;">Judge CyberGavel</div>
                 <div style="font-size: 14px;">Electronic Signature Verified ✅</div>
                 <div>{import_datetime()}</div>
             </div>
@@ -330,4 +330,5 @@ def get_verdict_download_html(content):
 # 辅助函数：获取当前时间（为了放在 HTML 里）
 def import_datetime():
     from datetime import datetime
+
     return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
