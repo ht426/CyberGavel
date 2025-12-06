@@ -1,9 +1,7 @@
 # ⚖️ CyberGavel | 赛博公堂
-
-**CyberGavel** 是一个基于 Streamlit 的 AI 模拟法庭系统。它利用多智能体（Multi-Agent）协作架构，让agent分别扮演**律师**、**陪审团**和**法官**，针对用户输入的争议话题进行实时辩论、投票并生成判决书。
-
+![项目封面图](result/image.png)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue) ![Streamlit](https://img.shields.io/badge/Streamlit-App-ff4b4b) ![DeepSeek](https://img.shields.io/badge/AI-DeepSeek-blueviolet) ![Qwen](https://img.shields.io/badge/AI-Qwen-green)
-
+**CyberGavel** 是一个基于 Streamlit 的 AI 模拟法庭系统。它利用多智能体（Multi-Agent）协作架构，让agent分别扮演**律师**、**陪审团**和**法官**，针对用户输入的争议话题进行实时辩论、投票并生成判决书。
 ## ✨ 项目亮点
 
 * **🧠 多模型混合架构 (Model Routing)**：
